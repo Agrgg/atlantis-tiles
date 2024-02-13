@@ -32,10 +32,10 @@ function drawHexagon(ctx, x, y) {
     let style = tiles[tileIndex++];
     if (style) {
         ctx.fillStyle = style > 2
-            ? 'gray'
+            ? '#D3C3B3'
             : style > 1
-                ? 'green'
-                : 'yellow';
+                ? '#97CC05'
+                : '#FFC912';
         ctx.fill();
     }
     
